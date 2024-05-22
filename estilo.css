@@ -1,0 +1,103 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+hr{
+    position: absolute;
+    text-align: right;
+}
+
+.header{
+    list-style:none;
+    display: flex;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    padding-left: 29%;
+}
+
+header{
+    background-color: #0b2089;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.header li{
+    padding: 14px 30px;
+}
+
+.fundo{
+    background-image: url(img/billie-dollar-with-business-chart-768x492.jpg);
+    background-size: cover;
+    height: 100%;
+
+    
+}
+
+#tituloPrincipal{
+    font-size: 95px;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+#subtituloP{
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+
+#div1{
+    height: 100%;
+    display: flex;
+    margin: 0 5%;
+    
+}
+
+#div1 img{
+    margin: 0 5%;
+}
+
+.dois{
+    width: 40%;
+}
+
+.s{
+    padding-top: 5%;
+}
+
+
+#img{
+    position: absolute;
+    right: -5%
+
+}
+
+#img2{
+    height: 400px;
+    width: 500px;
+}
+
+#div2{
+    height: 100%;
+    padding-top: 17%;
+    display: flex;
+    margin: 0 5%;
+    text-align: right;
+}
+
+.p{
+    position: absolute;
+    padding-left: 20%;
+    margin-right: 5%;
+}
+
+.e{
+    padding-top: 12%;
+}
